@@ -1,0 +1,108 @@
+
+ISE@DESKTOP-F4RBDGG MINGW64 ~ (master)
+$ pwd
+/c/Users/ISE
+
+ISE@DESKTOP-F4RBDGG MINGW64 ~ (master)
+$ ls
+ 03/                     'Local Settings'@                                                                               Shashank/            exp4/               ntuser.dat.LOG2
+'3D Objects'/             Music/                                                                                         Shashankprasad/      expe1/              ntuser.ini
+ AppData/                'My Documents'@                                                                                'Start Menu'@         experiment1/        package-lock.json
+'Application Data'@       NTUSER.DAT                                                                                     Sushruth/            experiment2/        pro5.aux
+ Contacts/                NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf                                        Templates@           experiment3/        pro5.log
+ Cookies@                 NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms   Videos/              expr03/             pro5.pdf
+ Desktop/                 NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms   anaconda3/           expt01/             pro5.synctex.gz
+ Documents/               NetHood@                                                                                       eclipse/             expt1/              pro5.tex
+ Downloads/               OneDrive/                                                                                      eclipse-workspace/   git_experiment2/    program-1/
+ Exp1/                    Pictures/                                                                                      exp0003/             git_experiment_1/   program_1/
+ Exp11/                   Prasad/                                                                                        exp001/              gitexp3/            sample_016.txt
+ Exp111/                  PrintHood@                                                                                     exp003/              ipsa.txt            sunil/
+ Favorites/               Recent@                                                                                        exp03/               ise3/               sunilexp1/
+ Git2/                   'Saved Games'/                                                                                  exp12/               newE/               usn.tex
+ IntelGraphicsProfiles/   Searches/                                                                                      exp2/                newexp/
+ Links/                   SendTo@                                                                                        exp3/                ntuser.dat.LOG1
+
+ISE@DESKTOP-F4RBDGG MINGW64 ~ (master)
+$ cd Desktop/
+
+ISE@DESKTOP-F4RBDGG MINGW64 ~/Desktop (master)
+$ ls
+ 7b387ef2-b682-4b6e-bcd6-5e02c0b14be9_seb-windows.exe*  'Git Bash.lnk'*  'MySQL 8.0 Command Line Client.lnk'*   Softwares/                   desktop.ini   first/             ipsa/    seb/
+'Eclipse IDE for Java Developers - 2026-09.lnk'*         Hello-World/    'New folder'/                         'Your Chrome - Chrome.lnk'*   exam/         first.synctex.gz   nidhi/   usn/
+
+ISE@DESKTOP-F4RBDGG MINGW64 ~/Desktop (master)
+$ cd 'New folder'/
+
+ISE@DESKTOP-F4RBDGG MINGW64 ~/Desktop/New folder (master)
+$ git clone https://github.com/octocat/Hello-World.git
+Cloning into 'Hello-World'...
+remote: Enumerating objects: 13, done.
+remote: Total 13 (delta 0), reused 0 (delta 0), pack-reused 13 (from 1)
+Receiving objects: 100% (13/13), done.
+
+ISE@DESKTOP-F4RBDGG MINGW64 ~/Desktop/New folder (master)
+$ ls
+Hello-World/  ex4.txt
+
+ISE@DESKTOP-F4RBDGG MINGW64 ~/Desktop/New folder (master)
+$ cd Hello-World
+
+ISE@DESKTOP-F4RBDGG MINGW64 ~/Desktop/New folder/Hello-World (master)
+$ ls
+README
+
+ISE@DESKTOP-F4RBDGG MINGW64 ~/Desktop/New folder/Hello-World (master)
+$ nano README
+
+ISE@DESKTOP-F4RBDGG MINGW64 ~/Desktop/New folder/Hello-World (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ISE@DESKTOP-F4RBDGG MINGW64 ~/Desktop/New folder/Hello-World (master)
+$ git commit -m "I have include somelines"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ISE@DESKTOP-F4RBDGG MINGW64 ~/Desktop/New folder/Hello-World (master)
+$ git add README
+
+ISE@DESKTOP-F4RBDGG MINGW64 ~/Desktop/New folder/Hello-World (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README
+
+
+ISE@DESKTOP-F4RBDGG MINGW64 ~/Desktop/New folder/Hello-World (master)
+$ git commit -m "i have include the some lines"
+[master ad2f0ed] i have include the some lines
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+ISE@DESKTOP-F4RBDGG MINGW64 ~/Desktop/New folder/Hello-World (master)
+$ git remote -v
+origin  https://github.com/octocat/Hello-World.git (fetch)
+origin  https://github.com/octocat/Hello-World.git (push)
+
+ISE@DESKTOP-F4RBDGG MINGW64 ~/Desktop/New folder/Hello-World (master)
+$ ^C
+
+ISE@DESKTOP-F4RBDGG MINGW64 ~/Desktop/New folder/Hello-World (master)
+$ nano README
